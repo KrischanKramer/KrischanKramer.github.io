@@ -1,55 +1,165 @@
-/* General styles - put these straight into your stylesheet */
+article {
+  border: 5px solid #6E8440;
+}
+
+img {
+  position: relative;
+  border: 5px solid #6E8440;
+
+}
 
 body {
-  margin: 0;
+  max-width: 800px;
+  margin: 0 auto;
+  
 }
 
-html {
-  font-family: 'Helvetica neue', Arial, 'sans serif';
-  font-size: 10px;
-  background-color: #ccc;
+.sender-column {
+  text-align: right;
 }
 
-/* Selectors to be matched up with rulesets */
-
-.card article img
-.card footer
-.card header
-.card
-
-/* Rulesets to be matched up with selectors */
-
-
-.card footer, .card header {
-height: 30px;
-padding: 10px;
+button:hover {
+  background-color: black;
+  color: white;
 }
 
-
-.card {
-  width: 35em;
-  height: 22em;
-  margin: 5em auto;
-  background-color: red;(144, 3, 3);
-  border: 0.2em solid black;
-  border-radius: 1.5em;
+button {
+  margin-left: 27vw;
+  background-color: white;
+  border: 3px solid black;
+  color: black;
+  padding-top: 7px;
+  padding-bottom: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  font-family: 'Dosis', sans-serif;
+  border-radius: 40px;
 }
 
-.card header {
-  background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
-  border-radius: 1.5em 1.5em 0 0;
+button:active {
+  background-color: black;
+  color: white;
 }
 
-.card footer {
-  background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
-  border-radius: 0 0 1.5em 1.5em;
+h1 {
+position: relative;
+
+
+font-family: 'Courier Prime';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+
+
+color: #6E8440;
 }
 
-.card article img {
-  max-height: 100% ;
-  height: 15em;
-  width: 15em;
-  float: right;
+h2 {
+  position: relative;
+
+
+font-family: 'Courier Prime';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+
+
+color: #474242;
+
 }
 
+h3 {
+position: relative;
 
+
+font-family: 'Courier Prime';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+
+
+color: #6E8440;
+
+}
+
+h4 {
+  position: relative;
+
+
+font-family: 'Courier Prime';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+
+
+color: #474242;
+
+}
+
+h5 {
+  position: relative;
+
+
+font-family: 'Courier Prime';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+
+
+color: #474242;
+
+}
+
+h6 {
+  position: relative;
+ 
+  
+  font-family: 'Courier Prime';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 40px;
+  
+  
+  color: #474242;
+
+}
+
+p {
+  position: relative;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+
+
+color: #474242;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 25%;
+  padding: 20px;
+
+}
+
+@media screen and (max-width: 992px) {
+  .column{
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex: 50%;
+  }
+}

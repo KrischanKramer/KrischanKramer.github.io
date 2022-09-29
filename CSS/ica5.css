@@ -9,7 +9,10 @@ html {
 body {
   margin: 0;
   background: #ccc;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 15%, rgba(0, 0, 0, 0), 85% rgba(0, 0, 0, 0.2)), url(../assignments/ica5/ica5img/top-image.png) no-repeat left top, url(../assignments/ica5/ica5img/bottom-image.png) no-repeat left bottom;
 }
+
+/* put images in article */
 
 article {
   width: 210mm;
@@ -36,6 +39,18 @@ h1 {
   padding: 44px 0;
   color: white;
   text-shadow: 1px 1px 1px black;
+  background-image: url(ica5img/logo.png);
+  box-shadow: 4px 4px 4px black;
+  border-radius: 50px;
+
 }
 
 /* Your CSS below here */
+
+article{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 15%, rgba(0, 0, 0, 0), 85% rgba(0, 0, 0, 0.2)), url(../assignments/ica5/ica5img/top-image.png) no-repeat left top, url(../assignments/ica5/ica5img/bottom-image.png) no-repeat left bottom;
+  border-top: 1mm solid red;
+  border-bottom: 1mm solid red;
+}
+
+
