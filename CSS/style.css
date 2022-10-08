@@ -1,3 +1,154 @@
+.head{
+  /* font-family: "Courier Prime"; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 50px;
+  font-family: "Courier Prime";
+  /* move all thes ^ to top when finished if running */ 
+}
+
+.head img {
+    height: 450px;
+    width: 333px;
+    /* margin-top: 10px; */
+    /* fix dimensions */
+  }
+
+.head h1{
+    font-family: "Courier Prime";
+    padding: 20px 30px;
+    color: #474242;
+    font-size: 40px;
+    margin-top: 50px;
+    /* margin-top: -50px; */
+    /* font-family: "Courier Prime"; */
+    /* play with padding and margin, move font up? */
+}
+
+.head h2{
+  font-family: "Courier Prime";
+  padding: 20px 30px;
+  color: #6E8440;
+  font-size: 40px;
+  margin-top: -50px;
+  /* font-family: "Courier Prime"; */
+  /* play with padding and margin, move font up? */
+}
+
+.head h3{
+      font-family: "Courier Prime";
+      padding: 20px 30px;
+      color: #474242;
+      font-size: 30px;
+      /* margin-top: -50px; */
+      /* font-family: "Courier Prime"; */
+      /* play with padding and margin, move font up? */
+}
+
+.resume img{
+    height: 1128px;
+    width: 828px;
+    margin-top: -80px;
+
+    /* play with all of these */
+    /* move to body? */
+
+}
+
+.body {
+    margin-top: 50px;
+    font-family: "Courier Prime";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px;
+    font-family: "Courier Prime"; */
+    /* move font and adjust margin? */
+}
+
+.body img{
+  height: 450px;
+  width: 333px;
+  /* margin-top: 10px; */
+  /* fix dimensions */
+}
+
+
+
+.biotext{
+  border: 1px solid #475E51;
+  background-color:  #d4debe;
+  width: 960px;
+  padding: 20px;
+        /* border: 1px solid #475E51;
+        background-color:  #d4debe; */
+        /* margin: 0; */
+        /* change the name of textbox here and on html */
+}
+
+.biotext h4{
+      font-family: "Courier Prime";
+      padding: 20px 30px;
+      color: #474242;
+      font-size: 40px;
+}
+
+/* move this section to top after its running. */
+
+/* Add a black background color to the top navigation */
+.navbar {
+    overflow: hidden;
+    font-family: "Courier Prime";
+    background-color: #475E51;
+    text-decoration: none;
+    /* overflow: hidden;
+    font-family: "Courier Prime"; */
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    font-size: 20px;
+    padding: 20px 20px;
+    float: left;
+    text-align: left;
+    color: white;
+    /* text-align: left; */
+    /* padding: 20px 20px; */
+    /* text-decoration: none; */
+    /* font-size: 20px; */
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #d4debe;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link*/
+  /* .navbar a.active {
+    background-color: #d4debe;
+    color: black;
+  } */
+ /* TURNED OFF, DELTE  */
+
+
+
+
+
+/* OLD CSS */
+
+
+/* html{
+  background-color: #d4debe;
+
+}
+
+head {
+  display: block;
+
+}
+
 article {
   border: 5px solid #6E8440;
 }
@@ -14,16 +165,22 @@ body {
   
 }
 
+nav {
+  display: grid;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 10px;
+  
+}
+
 .sender-column {
   text-align: right;
 }
 
-button:hover {
-  background-color: black;
-  color: white;
-}
-
-button {
+/* button {
   margin-left: 27vw;
   background-color: white;
   border: 3px solid black;
@@ -40,20 +197,42 @@ button {
   border-radius: 40px;
 }
 
+button:hover {
+  background-color: black;
+  color: white;
+}
+
 button:active {
   background-color: black;
   color: white;
+} */
+
+/* /* .button{
+  background-color: white;
+  border: 1px solid #6E8440;
+  /* box-shadow: 8px 4px 4px; rgba(0, 0, 0, 0.25) */
+  /* border-radius: 80px; */
+  /* } */
+
+
+/* .button:hover {
+  background-color: black;
+  color: white;
+}
+
+.button:visited {
+  background-color: #6E8440;
+  box-shadow: 0.5px black;
+  transform: translate(4px);
 }
 
 h1 {
 position: relative;
 
-
 font-family: 'Courier Prime';
 font-style: normal;
 font-weight: 700;
 font-size: 100px;
-
 
 color: #6E8440;
 }
@@ -128,6 +307,11 @@ h6 {
 
 }
 
+hr{
+  height: 5px;
+  background-color: #6E8440;
+}
+
 p {
   position: relative;
 
@@ -182,4 +366,4 @@ color: #474242;
   .row {
     flex: 50%;
   }
-}
+} */ 
