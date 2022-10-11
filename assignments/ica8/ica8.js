@@ -5,6 +5,7 @@
 //     alert('this is an alert');
 // }
 
+//color chage
 
 let body = document.querySelector('body');
 body.addEventListener('click', switchBackgroundColor);
@@ -15,6 +16,8 @@ function switchBackgroundColor(){
 
 function red(){ document.body.style.background = "red"; }
 function white(){ document.body.style.background = "white"; }
+
+// fontchange
 
 let h1 = document.querySelector('h1');
 h1.addEventListener('click', changeFont);
