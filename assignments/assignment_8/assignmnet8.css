@@ -1,0 +1,98 @@
+.head{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: "Courier Prime";
+  }
+  
+  .head img {
+      height: 450px;
+      width: 333px;
+    }
+  
+  .head h1{
+      font-family: "Courier Prime";
+      padding: 20px 30px;
+      color: #474242;
+      font-size: 40px;
+      margin-top: 50px;
+  }
+  
+  .head h2{
+    font-family: "Courier Prime";
+    padding: 20px 30px;
+    color: #6E8440;
+    font-size: 40px;
+    margin-top: -50px;
+  }
+  
+  .head h3{
+        font-family: "Courier Prime";
+        padding: 20px 30px;
+        color: #474242;
+        font-size: 30px;
+  }
+  
+  .resume img{
+      height: 1128px;
+      width: 828px;
+      margin-top: -80px;
+  }
+  
+  .body {
+      margin-top: 50px;
+      font-family: "Courier Prime";
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .body h1 {
+    font-family: "Courier Prime";
+    padding: 20px 30px;
+    color: #6E8440;
+    font-size: 40px;
+    margin-top: -50px;
+  }
+  
+  .body img{
+    height: 450px;
+    width: 333px;
+  }
+  
+  
+  
+  .biotext{
+    border: 1px solid #475E51;
+    background-color:  #d4debe;
+    width: 960px;
+    padding: 20px;
+  }
+  
+  .biotext h4{
+        font-family: "Courier Prime";
+        padding: 20px 30px;
+        color: #474242;
+        font-size: 40px;
+  }
+  
+  .navbar {
+      overflow: hidden;
+      font-family: "Courier Prime";
+      background-color: #475E51;
+      text-decoration: none;
+    }
+    
+    .navbar a {
+      font-size: 20px;
+      padding: 20px 20px;
+      float: left;
+      text-align: left;
+      color: white;
+    }
+    
+    .navbar a:hover {
+      background-color: #d4debe;
+      color: black;
+    }
+    
