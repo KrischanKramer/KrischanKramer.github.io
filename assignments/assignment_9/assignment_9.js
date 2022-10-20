@@ -4,8 +4,6 @@ const thumbBar = document.querySelector('.thumb-bar');
 const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
-/* Declaring the array of image filenames */
-
 const assignment_9img = ['pic1.jpg', `pic2.jpg`, `pic3.jpg`, `pic4.jpg`, `pic5.jpg`];
 const alts = {
   'pic1.jpg' : 'Get Buffed',
@@ -14,8 +12,6 @@ const alts = {
   'pic4.jpg' : 'Lit squad pic',
   'pic5.jpg' : 'Crowd shot'
 }
-
-/* Looping through images */
 
 for (const image of assignment_9img) {
   const newImage = document.createElement('img');
@@ -27,8 +23,6 @@ for (const image of assignment_9img) {
     displayedImage.alt = e.target.alt;
   });
 }
-
-/* Wiring up the Darken/Lighten button */
 
 btn.addEventListener('click', () => {
   const btnClass = btn.getAttribute('class');
