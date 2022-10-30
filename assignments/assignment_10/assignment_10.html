@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 10</title>
+</head>
+<body>  
+
+
+    <h1>Assignment 10</h1>
+    <script>
+
+
+
+        //1 
+            const employees = { 
+                "employees": [
+            {
+                "first_name" : "Sam",
+                "department" : "Tech",
+                "designation" : "Manager",
+                "salary": 40000,
+                "raise_eligible":true
+            },
+            {
+                "first_name" : "Mary",
+                "department" : "Finance",
+                "designation" : "Trainee",
+                "salary": 18500,
+                "raise_eligible":true
+            },
+            {
+                "first_name" : "Bill",
+                "department" : "HR",
+                "designation" : "Executive",
+                "salary": 21200,
+                "raise_eligible":false
+            }
+            ]}
+        console.log(employees)  
+
+
+
+
+        //2
+            const company1 = { 
+            
+            "company_name":"Tech Stars",
+            "website":"www.techstars.site",
+            "employees": [
+                {
+                    "first_name" : "Sam",
+                    "department" : "Tech",
+                    "designation" : "Manager",
+                    "salary": 40000,
+                    "raise_eligible":true
+                },
+                {
+                    "first_name" : "Mary",
+                    "department" : "Finance",
+                    "designation" : "Trainee",
+                    "salary": 18500,
+                    "raise_eligible":true
+                },
+                {
+                    "first_name" : "Bill",
+                    "department" : "HR",
+                    "designation" : "Executive",
+                    "salary": 21200,
+                    "raise_eligible":false
+                }
+                ]  
+            };
+            console.log(company1)
+
+
+
+
+        //3
+            const company2 = { 
+            
+            "company_name":"Tech Stars",
+            "website":"www.techstars.site",
+            "employees": [
+                {
+                    "first_name" : "Sam",
+                    "department" : "Tech",
+                    "designation" : "Manager",
+                    "salary": 40000,
+                    "raise_eligible":true
+                },
+                {
+                    "first_name" : "Mary",
+                    "department" : "Finance",
+                    "designation" : "Trainee",
+                    "salary": 18500,
+                    "raise_eligible":true
+                },
+                {
+                    "first_name" : "Bill",
+                    "department" : "HR",
+                    "designation" : "Executive",
+                    "salary": 21200,
+                    "raise_eligible": false
+                }
+                ]  
+             };
+            function addEmployee(obj, name, dep, des, sal, raise) {
+                let employee = {
+                    "first_name": name,
+                    "department": dep,
+                    "designation": des,
+                    "salary": sal,
+                    "raise_eligible": raise
+                };
+               obj['employees'].push(employee);
+            }
+            addEmployee(company2, "Anna", "Tech", "Executive", 25600, false);
+            console.log(company2)
+
+
+
+
+
+
+
+        //4
+
+            let salaryTotal = 0;
+            for(let i = 0; i < company2.employees.length; i++){
+                salaryTotal += company2.employees[i]['salary'];
+            }
+            console.log(salaryTotal);
+
+
+
+
+
+        //5
+
+            for(let i = 0; i < company2.employees.length; i++){
+                if(company2.employees[i]['raise_eligible'] === true){
+                    company2.employees[i]['salary'] += company2.employees[i]['salary'] * 0.1;
+                    company2.employees[i]['raise_eligible'] = false;
+                }
+            }
+            console.log(company2.employees);
+
+
+
+
+
+        //6
+
+        let check = false;
+        let wfh = ['Anna', 'Sam'];
+        for(let i = 0; i < company2.employees.length; i++){ 
+            let name = company2.employees[i].first_name; 
+            for(let j = 0; j < wfh.length; j++){  
+                if(wfh[j] === name){ 
+                    check = true;
+                }
+            }
+            if(check === true){ 
+                company2['employees'][i].workFromHome = true;
+            }
+            if(check === false) {
+                company2['employees'][i].workFromHome = false;
+            }
+            check = false;
+        }
+        console.log(company2);
+
+
+    </script>
+</body>
+</html>
