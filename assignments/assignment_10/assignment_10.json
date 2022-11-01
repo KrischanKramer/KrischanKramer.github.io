@@ -1,4 +1,5 @@
 [
+
     {
       "first_name" : "Sam",
       "department" : "Tech",
@@ -6,6 +7,7 @@
       "salary": "40000",
       "raise_eligible":"true"
     },
+
     {
       "first_name" : "Mary",
       "department" : "Finance",
@@ -13,6 +15,7 @@
       "salary": "18500",
       "raise_eligible":"true"
     },
+
     {
       "first_name" : "Bill",
       "department" : "HR",
@@ -20,6 +23,7 @@
       "salary": "21200",
       "raise_eligible":"false"
     },
+
     {
       "first_name" : "Anna",
       "department" : "Tech",
@@ -27,4 +31,5 @@
       "salary": "25600",
       "raise_eligible":"false"
     }
+    
   ]
