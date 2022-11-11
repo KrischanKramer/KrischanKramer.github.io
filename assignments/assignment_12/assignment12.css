@@ -1,0 +1,15 @@
+#container {
+    margin: 10px; 
+    border: 8px solid #ff0000; 
+    background-color: #0000ff; 
+    color: #fff; 
+    font-weight: bold; 
+    padding-bottom: 10px; 
+    display: inline-block; 
+    font-size: 16pt; 
+  }
+  
+  button {
+    font-size: 15.5pt; 
+  }
+  
