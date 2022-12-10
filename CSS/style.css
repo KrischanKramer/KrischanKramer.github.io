@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  font-family: "Courier Prime";
+  font-family: "Impact";
 }
 
 .head img {
@@ -11,23 +11,23 @@
   }
 
 .head h1{
-    font-family: "Courier Prime";
-    padding: 20px 30px;
+    font-family: "Impact";
+    padding: 10px 30px;
     color: #474242;
     font-size: 40px;
     margin-top: 50px;
 }
 
 .head h2{
-  font-family: "Courier Prime";
-  padding: 20px 30px;
+  font-family: "Impact";
+  padding: 10px 30px;
   color: #6E8440;
   font-size: 40px;
   margin-top: -50px;
 }
 
 .head h3{
-      font-family: "Courier Prime";
+      font-family: "Trebuchet MS";
       padding: 20px 30px;
       color: #474242;
       font-size: 30px;
@@ -41,14 +41,14 @@
 
 .body {
     margin-top: 50px;
-    font-family: "Courier Prime";
+    font-family: "Trebuchet MS";
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .body h1 {
-  font-family: "Courier Prime";
+  font-family: "Trebuchet MS";
   padding: 20px 30px;
   color: #6E8440;
   font-size: 40px;
@@ -60,8 +60,6 @@
   width: 333px;
 }
 
-
-
 .biotext{
   border: 1px solid #475E51;
   background-color:  #d4debe;
@@ -70,7 +68,7 @@
 }
 
 .biotext h4{
-      font-family: "Courier Prime";
+      font-family: "Trebuchet MS";
       padding: 20px 30px;
       color: #474242;
       font-size: 40px;
@@ -78,21 +76,41 @@
 
 .navbar {
     overflow: hidden;
-    font-family: "Courier Prime";
+    font-family: "Impact";
     background-color: #475E51;
     text-decoration: none;
-  }
+    justify-content:space-evenly;
+}
   
-  .navbar a {
+.navbar h1 {
+    font-size: 43px;
+    /* padding: 10px 10px; */
+    float: center;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a {
     font-size: 20px;
     padding: 20px 20px;
+    align-items: center;
     float: left;
     text-align: left;
     color: white;
-  }
+    text-decoration: none;
+    justify-content:space-evenly;
+}
   
-  .navbar a:hover {
+.navbar a:hover {
     background-color: #d4debe;
     color: black;
-  }
+}
   
+.p5 {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 50px; */
+  padding: 20px 20px;
+  font-family: "Impact";
+}
